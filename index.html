@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Capybara Plains PWA</title>
+        <link rel="canonical" href="https://PandaCoffeBara.github.io/GithubPagePWA/" />
+        <link rel="manifest" href="/GithubPagePWA/manifest.webmanifest"/>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+</html>
+<body>
+    <h1>Angel's PWA Portfolio</h1>
+    <script>
+        //Time to check for webworkers
+        if (navigator.serviceWorker) {
+            navigator.serviceWorker.register(
+                '/GithubPagePWA/sw.js',
+                {
+                    scope: '/GithubPagePWA/'
+                }
+            )
+        }
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>

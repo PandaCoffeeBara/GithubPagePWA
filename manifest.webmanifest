@@ -1,0 +1,21 @@
+{
+  "name": "Capybara Plains PWA",
+  "short_name": "CapyPWA",
+  "description": "A PWA App to use as a portofolio",
+
+  // starting url and scope
+  "scope": "/GithubPagePWA",
+  "start_url": "/GithubPagePWA",
+
+  // colors of the app
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/GithubPagePWA/img/Capybara.svg",
+      "type": "image/svg",
+      "sizes": "256x256"
+    }
+  ]
+}
